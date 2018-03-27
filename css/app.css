@@ -12,6 +12,7 @@
 
 .result {
   border:none;
+  background-color: lightgrey;
 }
 
 .codeFrame {
@@ -26,6 +27,7 @@
   width:50vw;
   height:100vh;
   position: fixed;
+  cursor: url(/edit.cur);
 }
 
 body {
