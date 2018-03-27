@@ -21,13 +21,14 @@
   border: 0;
   width: 50vw;
   height: 100vh;
+  cursor: url("/edit.cur") !important;
 }
 
 #code {
   width:50vw;
   height:100vh;
   position: fixed;
-  cursor: url(/edit.cur);
+  cursor: url("/edit.cur") !important;
 }
 
 body {

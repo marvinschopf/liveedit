@@ -15,13 +15,21 @@ function getStartupValue() {
 
 }
 
+function changeTheme(darkOrWhite) {
+  if(darkOrWhite == "dark") {
+    editor.updateOptions({theme:'vs-dark'});
+  } else if(darkOrWhite == "white") {
+    editor.updateOptions({theme:'vs'});
+  }
+}
+
 require.config({ paths: { 'vs': 'lib/monaco/min/vs' }});
 	require(['vs/editor/editor.main'], function() {
 		editor = monaco.editor.create(document.getElementById('code'), {
 			value: getStartupValue(),
 			language: 'html',
       scrollBeyondLastLine: false,
-      theme: 'vs-dark'
+      theme: 'vs'
 		});
-    
+
 	});
