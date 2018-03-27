@@ -6,6 +6,7 @@ function transformContent() {
   var doc = $frame[0].contentWindow.document;
   var $body = $('html',doc);
   $body.html(editor.getValue());
+  Cookies.set('content', editor.getValue());
 }
 
 require.config({ paths: { 'vs': 'lib/monaco/min/vs' }});
