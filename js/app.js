@@ -31,5 +31,6 @@ require.config({ paths: { 'vs': 'lib/monaco/min/vs' }});
       scrollBeyondLastLine: false,
       theme: 'vs'
 		});
+    editor.updateOptions({theme:'vs'});
 
 	});
