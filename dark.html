@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>LiveEdit - MagicMarvMan</title>
+  <link href="lib/codemirror/lib/codemirror.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/app-dark.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96108388-7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-96108388-7');
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="codeFrame">
+          <div id="code"></div>
+        </div>
+      </div>
+      <iframe class="result resultFrame col-md-6" src="empty.html" onload="javascript:setInterval(transformContent, 1);"></iframe>
+    </div>
+  </div>
+  <script src="lib/monaco/min/vs/loader.js"></script>
+  <script src="lib/jquery-3.3.1.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="js/app-dark.js"></script>
+  <script>
+  </script>
+</body>
+</html>
