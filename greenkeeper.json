@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "lib/ace/package.json",
+        "lib/codemirror/package.json",
+        "lib/monaco/package.json"
+      ]
+    }
+  }
+}
