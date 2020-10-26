@@ -32,6 +32,6 @@
     "typedoc": "0.11.1",
     "typescript": "2.8.1",
     "uncss": "0.16.2",
-    "vinyl": "0.5.3"
+    "vinyl": "2.2.1"
   }
 }
