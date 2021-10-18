@@ -2,7 +2,7 @@
 # example Dockerfile for http://docs.docker.io/en/latest/examples/postgresql_service/
 #
 
-FROM ubuntu:latest@sha256:e348fbbea0e0a0e73ab0370de151e7800684445c509d46195aef73e090a49bd6
+FROM ubuntu:latest@sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
 MAINTAINER SvenDowideit@docker.com
 
 # Add the PostgreSQL PGP key to verify their Debian packages.
